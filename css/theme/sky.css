@@ -1,9 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,700,400italic,700italic);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
+/*$grayMediumLight: #eaeaea;
+$teal: #46b5b1;
+$navyBlue: #426e84;
+$green: #418743;
+$orangeburn: #D37F30;
+$orange: #C26600;
+$almostWhyte: #eeeeee;
+$darkGrey: #999;*/
 /**
- * Sky theme for reveal.js.
+ * environmentality theme for reveal.js.
  *
- * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ * Copyright (C) 2011-2012 Charles F Grugan, http://www.charlesgrugan.com
  */
 .reveal a:not(.image) {
   line-height: 1.3em; }
@@ -42,12 +50,12 @@ body {
 .reveal h4,
 .reveal h5,
 .reveal h6 {
+  letter-spacing:1;
   margin: 0 0 20px 0;
   color: #333333;
-  font-family: "Quicksand", sans-serif;
-  line-height: 0.9em;
-  letter-spacing: -0.08em;
-  text-transform: uppercase;
+  font-family: "Helvetica", sans-serif;
+  font-weight:100;
+  line-height: 1em;
   text-shadow: none; }
 
 .reveal h1 {
